@@ -2,13 +2,31 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The purpose of this analyis was to help identify whether a borrower would be a high-risk or a low-risk borrower.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+The Logistic Regession model was used in this analysis to predict the loan risk. The analysis took multiple variables into consideration when making its predictions.
+
+* The purpose of the analysis was to predict whether the loan in question would be a heathly loan ("0") or a high-risk loan ("1").
+* The variables that were taking into consideratiion were:
+    - loan size	
+    - interest rate	
+    - borrower income
+    - debt to income
+    - num of accounts
+    - derogatory marks
+    - total debt
+    - loan status
+
+* Based on these variables variables we want the model to be able to learn and predict whether the loan will be heathly or high risk.
+
+* The stages used in this process was"
+    - Processing Data (reading csv file)
+    - creating label sets for X and y 
+    - Training Data (train_test_split)
+    - Logistic Regression (with fitting it into the model)
+    - Predictions
+    - Creating confusin matrix
+    - Creating classification report
 
 ## Results
 
