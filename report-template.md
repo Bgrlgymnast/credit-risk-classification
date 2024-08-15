@@ -6,7 +6,7 @@ The purpose of this analyis was to help identify whether a borrower would be a h
 
 The Logistic Regession model was used in this analysis to predict the loan risk. The analysis took multiple variables into consideration when making its predictions.
 
-* The purpose of the analysis was to predict whether the loan in question would be a heathly loan ("0") or a high-risk loan ("1").
+* Loan were classified into two categories: heathly loans ("0") or a high-risk loans ("1").
 * The variables that were taking into consideratiion were:
     - loan size	
     - interest rate	
@@ -17,24 +17,32 @@ The Logistic Regession model was used in this analysis to predict the loan risk.
     - total debt
     - loan status
 
-* Based on these variables variables we want the model to be able to learn and predict whether the loan will be heathly or high risk.
+* Based on these variables we want the model to be able to learn and predict whether the loan will be heathly or high-risk.
 
-* The stages used in this process was"
+* The stages used in this process were:
     - Processing Data (reading csv file)
-    - creating label sets for X and y 
+    - Creating label sets for X and y 
     - Training Data (train_test_split)
     - Logistic Regression (with fitting it into the model)
     - Predictions
     - Creating confusin matrix
     - Creating classification report
+    - Analysis of model findings
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
+Accuracy scores and the precision & recall scores of all machine learning models.
 
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+* **Healthy Loans ("0")**:
+    - Precision
+    - Recall
+    - F-1
 
+* **High-Risk Loans ("01")**:
+    - Precision
+    - Recall
+    - F-1
+    
 ## Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
