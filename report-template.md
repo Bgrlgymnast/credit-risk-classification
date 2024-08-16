@@ -39,7 +39,7 @@ Accuracy scores: the precision, recall and F-1 scores of all machine learning mo
 * **High-Risk Loans ("1")**:
     - Precision: 0.85
     - Recall: 0.91
-    - F-1:0.88
+    - F-1: 0.88
 
 **Model Accuracy**: 0.99
 
